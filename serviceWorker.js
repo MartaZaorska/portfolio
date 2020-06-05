@@ -2,12 +2,8 @@ const cacheName = "v1";
 
 const cacheAssets = [
   "index.html",
-  "/css/main.css",
-  "/js/data.js",
-  "/js/handlers.js",
-  "/js/main.js",
-  "/js/TypeText.js",
-  "/js/UI.js",
+  "/css/main.min.css",
+  "/js/main.min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css",
   "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap",
 ];
