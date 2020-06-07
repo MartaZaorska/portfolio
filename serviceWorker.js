@@ -4,7 +4,7 @@ const cacheAssets = [
   "index.html",
   "/css/main.min.css",
   "/js/main.min.js",
-  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css",
+  "https://kit.fontawesome.com/1df1c9dc3d.js",
   "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap",
 ];
 
