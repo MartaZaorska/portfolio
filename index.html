@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#151515" />
+    <meta
+      name="description"
+      content="Marta Zaorska - Junior Front-End / JavaScript / React Developer"
+    />
+    <title>Marta Zaorska</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="./images/icons/app-icon-32x32.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="message"></div>
+    <button class="scroll__button"><i class="fas fa-angle-up"></i></button>
+    <main class="container">
+      <section class="home">
+        <header class="header">
+          <h5 class="header__subtitle">Marta Zaorska</h5>
+          <h1 class="header__title">
+            Junior
+            <span
+              class="type"
+              data-words='["JavaScript", "React", "Front End"]'
+            >
+              JavaScript </span
+            ><br />
+            Developer
+          </h1>
+        </header>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item" data-target="skills">
+              <span class="stripe"></span>
+              <span class="text">Umiejętności</span>
+            </li>
+            <li class="navbar__item" data-target="projects">
+              <span class="stripe"></span>
+              <span class="text">Moje projekty</span>
+            </li>
+          </ul>
+        </nav>
+        <section class="contact">
+          <p class="contact--email" id="email">
+            marta.zaorska2@gmail.com <i class="far fa-copy"></i>
+          </p>
+          <section class="contact__controls">
+            <a
+              href="https://github.com/MartaZaorska"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact__link"
+              ><i class="fab fa-github"></i> Github</a
+            >
+            <a
+              href="https://www.facebook.com/marta.zaorska.31"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact__link"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+          </section>
+        </section>
+      </section>
+      <section class="main__content">
+        <section class="skills">
+          <h3 class="section__title" id="skills_title">Umiejętności</h3>
+          <section class="section__content skills__content"></section>
+        </section>
+        <section class="projects">
+          <h3 class="section__title" id="projects_title">Moje projekty</h3>
+          <section class="section__content projects__content"></section>
+        </section>
+        <footer class="footer">
+          &copy; Marta Zaorska <span id="year"></span>
+        </footer>
+      </section>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/TypeText.js"></script>
+    <script src="js/UI.js"></script>
+    <script src="js/handlers.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
