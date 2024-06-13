@@ -18,7 +18,7 @@ const PROJECTS = [
   },
   {
     name: "Aplikacja - kursy walut",
-    github_url: "https://github.com/MartaZaorska/currency_app",
+    github_url: "https://github.com/MartaZaorska/currency-app",
     demo_url: "https://currency-app-martazaorska.netlify.app/",
     technologies: ["React", "Redux Toolkit", "Chart.js", "PWA"]
   },
